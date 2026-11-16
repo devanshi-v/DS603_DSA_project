@@ -1,6 +1,6 @@
 # DS603_DSA_project Spotify Song Clustering Using Union-Find
 
-Project Overview
+## Project Overview
 
 This project explores Spotify song data and groups similar songs using a
 graph-based clustering approach built around the Union-Find (Disjoint
@@ -12,11 +12,11 @@ connected components according to selected distance and cluster-size
 parameters. The resulting clusters are analysed and visualised to
 understand patterns in the dataset.
 
-Live Website
+## Live Website
 
 Website link: [Add the live website URL here]
 
-Project Objectives
+## Project Objectives
 
 -   Clean and prepare Spotify track data for analysis.
 -   Select relevant numerical audio features for similarity measurement.
@@ -26,7 +26,7 @@ Project Objectives
 -   Evaluate clustering quality and compare the results with K-Means.
 -   Visualise the resulting clusters and examine parameter sensitivity.
 
-Dataset
+## Dataset
 
 The project uses a Spotify tracks dataset containing track information,
 metadata, and audio features.
@@ -53,7 +53,7 @@ Track metadata, such as track names, artists, popularity, and genre
 information, is retained for interpretation and presentation rather than
 used as part of the nine-dimensional distance calculation.
 
-Methodology
+## Methodology
 
 1. Data Cleaning and Preparation
 
@@ -121,7 +121,7 @@ Different values of the nearest-neighbour count and distance threshold
 are tested to examine how parameter choices affect the number and
 quality of clusters.
 
-Main Results
+## Main Results
 
 The notebook reports the following configuration and results:
 
@@ -135,7 +135,7 @@ The notebook reports the following configuration and results:
 -   Union-Find Davies-Bouldin Index: 2.151
 -   Union-Find NMI against genre: 0.147
 
-Reported cluster sizes:
+## Reported cluster sizes:
 
 -   Cluster 1: 29,083 songs
 -   Cluster 2: 20,566 songs
@@ -148,7 +148,7 @@ Reported cluster sizes:
 These values are the results reported by the project notebook and may
 vary if the dataset or parameters change.
 
-Comparison with K-Means
+## Comparison with K-Means
 
 The notebook also compares the Union-Find clustering result with a
 K-Means result using seven clusters.
@@ -165,7 +165,7 @@ groups, while the Union-Find approach forms components through graph
 connectivity. Therefore, the comparison should be interpreted in the
 context of these different clustering approaches.
 
-Technologies Used
+## Technologies Used
 
 -   Python
 -   Pandas
@@ -177,7 +177,7 @@ Technologies Used
 -   Jupyter Notebook
 -   Streamlit
 
-Project Files and Outputs
+## Project Files and Outputs
 
 The main analysis is contained in:
 
@@ -193,7 +193,7 @@ How to Run
 
 1.  Clone the repository:
 
-    git clone https://github.com/pinalkshah1980-bit/DSA-Project.git
+    git clone https://github.com/devanshi-v/DS603_DSA_project
 
 2.  Open the project folder.
 
@@ -211,7 +211,7 @@ Note: Some distance-calculation and graph-processing stages can be
 computationally intensive. Runtime and memory requirements depend on the
 machine and dataset.
 
-Limitations and Future Improvements
+## Limitations and Future Improvements
 
 -   The silhouette score indicates that the resulting clusters are not
     strongly separated under the metric’s assumptions.
@@ -225,7 +225,7 @@ Limitations and Future Improvements
     nearest-neighbour methods, additional parameter searches, and
     further cluster-interpretation techniques.
 
-Group Members
+## Group Members
 
   Name               Student ID
   ------------------ ------------
@@ -236,7 +236,7 @@ Group Members
   Lakshay Modi       202618009
   Divyesh Padaliya   202518028
 
-Conclusion
+## Conclusion
 
 This project demonstrates how a Union-Find data structure can be applied
 to graph-based song clustering. By combining standardised audio
