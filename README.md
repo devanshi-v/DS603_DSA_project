@@ -229,12 +229,12 @@ machine and dataset.
 
   Name               Student ID
   ------------------ ------------
-  Vrinda Teli        202618050
-  Krishika Lalwani   202618016
-  Devanshi Vora      202618013
-  Dishi Shah         202618051
-  Lakshay Modi       202618009
-  Divyesh Padaliya   202518028
+  Vrinda Teli        202618050  
+  Krishika Lalwani   202618016  
+  Devanshi Vora      202618013  
+  Dishi Shah         202618051  
+  Lakshay Modi       202618009  
+  Divyesh Padaliya   202518028  
 
 ## Conclusion
 
