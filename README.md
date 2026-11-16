@@ -14,7 +14,7 @@ understand patterns in the dataset.
 
 ## Live Website
 
-Website link: \[Add the live website URL here\]
+Website link: https://ds603dsaprojectspotifydashboard.streamlit.app/
 
 ## Project Objectives
 
@@ -231,14 +231,14 @@ machine and dataset.
 
 ## Group Members
 
-  Name                 Student ID
-  ------------------ ------------
-  Vrinda Teli           202618050  
-  Krishika Lalwani      202618016  
-  Devanshi Vora         202618013  
-  Dishi Shah            202618051  
-  Lakshay Modi          202618009  
-  Divyesh Padaliya      202518028  
+  Name                    Student ID
+  ------------------     ------------
+  Vrinda Teli              202618050  
+  Krishika Lalwani         202618016  
+  Devanshi Vora            202618013  
+  Dishi Shah               202618051  
+  Lakshay Modi             202618009  
+  Divyesh Padaliya         202518028  
 
 ## Conclusion
 
